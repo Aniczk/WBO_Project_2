@@ -11,7 +11,7 @@ Task:
 
 3.  (6 pkt ) Napisz program, który dla zadanych dwóch równych plików wynikowych z punktu 2, ( w naszym przykładzie możemy wyliczyć takie pliki dla pliku źródłowego input-z2.fasta i dla pliku wynikowegoz z punktu 1.) wyliczy nam wartość prawdopodobieństwa takiego rozkładu “trafień” przy założeniu, że w obu grupach białek domeny powinny występować równie często. W tym podpunkcie chodzi nam o napisanie implementacji testu Fishera dla naszych danych korzystając z wzoru:
 
-$$\sum_{i=x}^N \frac{{K\choose i} {N-K\choose n-i}}{N\choose n},$$
+$$\sum_{i=x}^N \frac{{K\choose i} {N-K\choose n-i}}{N\choose n}$$
 
 i porównanie wyników do implementacji testu Fishera zaimplementowanego w module Scipy.stats. (Oznaczenia: N – liczba białek w obu plikach, K -liczba białek w pierwszym pliku, n – liczba “trafień” w obu plikach, x – liczba “trafień” w pierwszym pliku).
 
