@@ -1,6 +1,8 @@
 # WBO_Project_2
-Project 2 from the course "Wstep do biologii obliczeniowej".
+Project 2 from the course "Wstęp do biologii obliczeniowej".
+
 The author of the task: Bartosz Wilczyński, University of Warsaw
+
 Task:
 
 1. (7 pkt) Napisz program extend.py, który dla zadanej listy fragmentów białek w formacie fasta, znajdzie w bazie NCBI (protein non redundant)  przy pomocy programu blastp wszystkie sekwencje białkowe o zadanym minimalnym procencie identyczności (domyślnie 90%), i zadanym e-value nie większym niż zadana wartość (domyślnie 10e-10) z co najmniej jednym fragmentem z danych wejściowych.  Przykładowy plik z danymi: input-z2.fasta. Program powinien przyjmować parametry z linii komend, dokonywać zapytania przez internet, parsować wyjście i zwracać plik .fasta
